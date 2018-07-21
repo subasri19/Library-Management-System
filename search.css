@@ -1,0 +1,62 @@
+.topBar{
+    border-bottom: 3px solid black;
+    height: auto;
+}
+
+.searchBar{
+    display: inline-block;
+    position: absolute;
+    left: 10%;
+    display: flex;
+    padding: 1em;
+}
+
+.searchTitle{
+    font-weight: bold;
+    padding: 1em;
+}
+
+.searchBar select, input, button{
+    padding: 0.5em;
+    margin-left: 1em;
+}
+
+.searchBar button {
+    width : 5em;
+}
+
+.viewProfile{
+    float: right;
+    padding: 1em;
+    margin-right: 10%;
+    margin-top: 0.75em;
+}
+
+.yourAccount{
+    position: relative;
+    display: inline-block;
+    padding: 0.5em;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: max-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {background-color: #ddd;}
+
+.viewProfile:hover .dropdownContent {display: block;}
+
+.viewProfile:hover .yourAccount {background-color: #081f41; color: #fff; font-weight: bold}
+

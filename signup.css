@@ -1,0 +1,59 @@
+body {
+    background-image: url("../LMS/assets/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 1em 24em;
+    padding: 2px 0.25em;
+    background-color: aqua;
+    height: auto;
+}
+
+h1 {
+    color: rgb(4, 4, 136);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+.choice {
+    display: flex;
+    padding: 1em;
+    text-transform: uppercase;
+}
+
+.choice>h4 {
+    column-count: 2;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form>input {
+    width: 80%;
+    display: block;
+    padding: 12px 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+.form>label {
+    margin: 2px;
+    font-size: 20px;
+}
+
+.form>input[type="button"] {
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: rgb(139, 222, 236);
+    border: 3px solid rgb(5, 18, 77);
+    font-weight: bold;
+    width: max-content;
+}
+
+.login {
+    visibility: hidden;
+}
