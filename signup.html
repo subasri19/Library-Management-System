@@ -9,17 +9,22 @@
 </head>
 
 <body>
+    <div class="title">
+        <h1>Library management system</h1>
+    </div>
 
-
-    <h1>Library management system</h1>
     <div class="container">
         <div class="entry">
             <div class="choice">
-                <h4 class="signupTitle">sign up</h4>
-                <h4 class="loginTitle">login</h4>
+                <a href="#" class="col borderSignup">
+                    <h4 class="signupTitle" onclick="showSignup()">sign up</h4>
+                </a>
+                <a href="#" class="col borderSignin">
+                    <h4 class="loginTitle" onclick="showLogin()">login</h4>
+                </a>
             </div>
             <div class="login" id="login">
-                <div class="form">
+                <div class="form" style="padding: 20px">
                     <label for="usrname">
                         <b>Username</b>
                     </label>
@@ -28,6 +33,8 @@
                         <b>Password</b>
                     </label>
                     <input type="password" placeholder="Enter the password" name="psw" required>
+                    <label for="submit"></label>
+                    <input type="button" value="Sign in">
                 </div>
             </div>
 
@@ -64,7 +71,9 @@
         </div>
 
     </div>
-
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="./Lettering.js-master/jquery.lettering.js"></script>
+    <script src="signup.js"></script>
 </body>
 
 </html>

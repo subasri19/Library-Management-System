@@ -1,27 +1,72 @@
 body {
-    background-image: url("../LMS/assets/images.jpg");
+    /* background-image: url("../LMS/assets/images.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: rgb(218, 252, 224);
+    height: max-content;
 }
 
 .container {
-    margin: 1em 24em;
-    padding: 2px 0.25em;
-    background-color: aqua;
-    height: auto;
+    margin: 10em 24em;
+    background-blend-mode: lighten;
+    border-radius: 25px;
+    background-color: rgb(108, 187, 121);
+    height: max-content;
+}
+
+.title {
+    position: relative;
+    width: 400px;
+    border-radius: 50%;
+    transform: rotate(-40deg);
+}
+
+h1 span {
+    font: 36px MonoSpace;
+    height: 200px;
+    position: absolute;
+    width: 20px;
+    margin-top: 215px;
+    margin-left: 100%;
+    transform-origin: bottom center;
+    font-weight: bolder;
+    padding: 10px;
 }
 
 h1 {
-    color: rgb(4, 4, 136);
+    color: rgb(8, 73, 19);
     text-align: center;
+    width: max-content;
+    height: max-content;
+    padding: 10px;
     text-transform: uppercase;
-    margin-top: 70px;
 }
 
 .choice {
-    display: flex;
-    padding: 1em;
+    text-align: center;
     text-transform: uppercase;
+    display: flex;
+}
+
+.choice:after {
+    content: "";
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 50%;
+    text-decoration: none;
+    background-color: rgb(171, 221, 173);
+    padding: 1em;
+}
+
+.loginTitle {
+    border-left-color: black;
+}
+
+.borderSignup {
+    border-right: 2px solid rgb(90, 110, 91);
 }
 
 .choice>h4 {
@@ -48,12 +93,108 @@ h1 {
 .form>input[type="button"] {
     margin-left: 200px;
     margin-top: 20px;
-    background-color: rgb(139, 222, 236);
-    border: 3px solid rgb(5, 18, 77);
+    background-color: rgb(109, 179, 112);
+    border: 3px solid rgb(5, 58, 38);
     font-weight: bold;
     width: max-content;
 }
 
-.login {
-    visibility: hidden;
+.char1 {
+    transform: rotate(-30deg);
+}
+
+.char2 {
+    transform: rotate(-24deg);
+}
+
+.char3 {
+    transform: rotate(-18deg);
+}
+
+.char4 {
+    transform: rotate(-12deg);
+}
+
+.char5 {
+    transform: rotate(-6deg);
+}
+
+.char6 {
+    transform: rotate(0deg);
+}
+
+.char7 {
+    transform: rotate(6deg);
+}
+
+.char8 {
+    transform: rotate(12deg);
+}
+
+.char9 {
+    transform: rotate(24deg);
+}
+
+.char10 {
+    transform: rotate(30deg);
+}
+
+.char11 {
+    transform: rotate(36deg);
+}
+
+.char12 {
+    transform: rotate(42deg);
+}
+
+.char13 {
+    transform: rotate(48deg);
+}
+
+.char14 {
+    transform: rotate(54deg);
+}
+
+.char15 {
+    transform: rotate(60deg);
+}
+
+.char16 {
+    transform: rotate(66deg);
+}
+
+.char17 {
+    transform: rotate(72deg);
+}
+
+.char18 {
+    transform: rotate(78deg);
+}
+
+.char19 {
+    transform: rotate(84deg);
+}
+
+.char20 {
+    transform: rotate(90deg);
+}
+
+.char21 {
+    transform: rotate(96deg);
+}
+
+.char22 {
+    transform: rotate(102deg);
+}
+
+.char23 {
+    transform: rotate(108deg);
+}
+
+.char24 {
+    transform: rotate(114deg);
+}
+
+.char25 {
+    transform: rotate(120deg);
 }
