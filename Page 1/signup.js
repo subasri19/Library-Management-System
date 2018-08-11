@@ -1,6 +1,7 @@
 $(document).ready(function() {
     $("#signup").hide();
-    $("h1").lettering();
+    //$("h1").lettering();
+    $(".title").lettering("words").children('span').lettering();
 });
 
 function showSignup() {

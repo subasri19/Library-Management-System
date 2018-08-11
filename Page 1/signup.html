@@ -5,15 +5,18 @@
     <title>
         Sign up form
     </title>
-    <link rel="stylesheet" type="text/css" href="signup.css">
+    <link rel="stylesheet" type="text/css" href="signup.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
     <div class="title">
-        <h1>Library management system</h1>
+        <h1>LMS</h1>
     </div>
 
-    <div class="container">
+    <div class="contain">
         <div class="entry">
             <div class="choice">
                 <a href="#" class="col borderSignup">
@@ -25,11 +28,11 @@
             </div>
             <div class="login" id="login">
                 <div class="form" style="padding: 20px">
-                    <label for="usrname">
+                    <label for="usrname" class="glyphicon glyphicon-user">
                         Username
                     </label>
-                    <input type="text" placeholder="Enter your preferred name" name="usrname" id="usrname" required>
-                    <label for="psw">
+                    <input type="text"  placeholder="Enter your preferred name" name="usrname" id="usrname" required>
+                    <label for="psw" class="glyphicon glyphicon-lock">
                         Password
                     </label>
                     <input type="password" placeholder="Enter the password" name="psw" id="psw" required>
@@ -40,27 +43,27 @@
 
             <div class="signup" id="signup">
                 <div class="form">
-                    <label for="name">
+                    <label for="name" class="glyphicon glyphicon-tag">
                         Name
                     </label>
                     <input type="text" placeholder="Enter your name" name="name" id="name" required>
-                    <label for="usrname">
+                    <label for="usrname" class="glyphicon glyphicon-user">
                         Username
                     </label>
                     <input type="text" placeholder="Enter your preferred name" name="usrname" id="usrname1" required>
-                    <label for="phno">
+                    <label for="phno" class="glyphicon glyphicon-phone">
                         Phone number
                     </label>
                     <input type="text" placeholder="Enter your phone number" name="phno" id="phno" required>
-                    <label for="email">
+                    <label for="email" class="glyphicon glyphicon-send">
                         Email id
                     </label>
                     <input type="text" placeholder="Enter your email id" name="email" id="mail" required>
-                    <label for="psw">
+                    <label for="psw" class="glyphicon glyphicon-lock">
                         Password
                     </label>
                     <input type="password" placeholder="Enter the password" name="psw" id="psw1" required>
-                    <label for="confirmPsw">
+                    <label for="confirmPsw" class="glyphicon glyphicon-lock">
                         Re-enter password
                     </label>
                     <input type="password" placeholder="Re-enter password" name="confirmPsw" id="psw2" required>
@@ -69,8 +72,8 @@
                 </div>
             </div>
         </div>
-
     </div>
+    <img src="../assets/lms.jpg" class="name">
     <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="../Lettering.js-master/jquery.lettering.js"></script>
     <script src="signup.js"></script>
